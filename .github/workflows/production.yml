@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  test:
+  test-unitario:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,14 +25,26 @@ jobs:
       - name: Run tests
         run: npm test
 
+  test-bdd:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Run tests BDD
         run: npm run test:bdd
 
-      - name: Run tests COVERAGE
-        run: npm run test:coverage
-
   build:
-    needs: test
+    needs: [test-unitario, test-bdd]
     runs-on: ubuntu-latest
 
     steps:
