@@ -32,7 +32,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: setup do nodejs
         uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -41,7 +41,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests
+      - name: Run build
         run: npm run build
 
   # deploy:
