@@ -25,6 +25,12 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Run tests BDD
+        run: npm run test:bdd
+
+      - name: Run tests COVERAGE
+        run: npm run test:coverage
+
   build:
     needs: test
     runs-on: ubuntu-latest

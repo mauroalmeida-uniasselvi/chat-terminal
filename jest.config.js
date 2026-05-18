@@ -6,10 +6,10 @@ export default {
   restoreMocks: true,
   coverageThreshold: {
     global: {
-      branches: 20,
-      functions: 20,
-      lines: 20,
-      statements: 20,
+      branches: 100,
+      functions: 100,
+      lines: 100,
+      statements: 100,
     },
   },
   coverageReporters: ["text", "lcov", "html"],
