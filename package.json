@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node src/index.js",
     "search": "node src/index.js",
+    "build": "echo 'Build step - currently no build process defined'",
     "dev": "node --watch src/index.js",
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --coverage",
     "test:bdd": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js src/bdd --coverage=false",
