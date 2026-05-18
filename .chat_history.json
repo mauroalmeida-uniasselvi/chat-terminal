@@ -1,0 +1,121 @@
+[
+  {
+    "id": "2026-05-18T21:16:33.579Z",
+    "model": "gpt-3.5-turbo",
+    "createdAt": "2026-05-18T21:16:33.579Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Porque o céu é azul?",
+        "createdAt": "2026-05-18T21:16:33.579Z"
+      },
+      {
+        "role": "assistant",
+        "content": "- A cor azul do céu é devido à dispersão da luz solar pelas moléculas de ar na atmosfera da Terra.",
+        "createdAt": "2026-05-18T21:16:33.579Z"
+      }
+    ]
+  },
+  {
+    "id": "2026-05-18T21:17:22.631Z",
+    "model": "gpt-3.5-turbo",
+    "createdAt": "2026-05-18T21:17:22.631Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "me explique melhor",
+        "createdAt": "2026-05-18T21:17:22.631Z"
+      },
+      {
+        "role": "assistant",
+        "content": "- A cor azul do céu é devido à dispersão da luz solar pelas moléculas de ar na atmosfera da Terra.",
+        "createdAt": "2026-05-18T21:17:22.631Z"
+      }
+    ]
+  },
+  {
+    "id": "2026-05-18T22:14:04.291Z",
+    "model": "gpt-3.5-turbo",
+    "createdAt": "2026-05-18T22:14:04.291Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "me explique melhor",
+        "createdAt": "2026-05-18T22:14:04.291Z"
+      },
+      {
+        "role": "assistant",
+        "content": "- A cor azul do céu é devido à dispersão da luz solar pelas moléculas de ar na atmosfera da Terra.",
+        "createdAt": "2026-05-18T22:14:04.291Z"
+      }
+    ]
+  },
+  {
+    "id": "2026-05-18T22:14:11.245Z",
+    "model": "gpt-3.5-turbo",
+    "createdAt": "2026-05-18T22:14:11.245Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "me explique melhor",
+        "createdAt": "2026-05-18T22:14:11.245Z"
+      },
+      {
+        "role": "assistant",
+        "content": "- A cor azul do céu é devido à dispersão da luz solar pelas moléculas de ar na atmosfera da Terra.",
+        "createdAt": "2026-05-18T22:14:11.245Z"
+      }
+    ]
+  },
+  {
+    "id": "2026-05-18T22:16:17.670Z",
+    "model": "gpt-3.5-turbo",
+    "createdAt": "2026-05-18T22:16:17.670Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "cafe com leite",
+        "createdAt": "2026-05-18T22:16:17.670Z"
+      },
+      {
+        "role": "assistant",
+        "content": "- Topic A",
+        "createdAt": "2026-05-18T22:16:17.670Z"
+      }
+    ]
+  },
+  {
+    "id": "2026-05-18T22:16:17.804Z",
+    "model": "gpt-3.5-turbo",
+    "createdAt": "2026-05-18T22:16:17.804Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "node test",
+        "createdAt": "2026-05-18T22:16:17.804Z"
+      },
+      {
+        "role": "assistant",
+        "content": "- Topic A\n- Topic B\n- Topic C",
+        "createdAt": "2026-05-18T22:16:17.804Z"
+      }
+    ]
+  },
+  {
+    "id": "2026-05-18T22:16:17.814Z",
+    "model": "gpt-3.5-turbo",
+    "createdAt": "2026-05-18T22:16:17.814Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "qualquer termo",
+        "createdAt": "2026-05-18T22:16:17.814Z"
+      },
+      {
+        "role": "assistant",
+        "content": "nenhum resultado encontrado",
+        "createdAt": "2026-05-18T22:16:17.814Z"
+      }
+    ]
+  }
+]
